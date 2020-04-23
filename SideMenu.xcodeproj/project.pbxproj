@@ -15,6 +15,10 @@
 		B106C5592451F12100FECE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B106C5572451F12100FECE57 /* LaunchScreen.storyboard */; };
 		B106C5642451F12100FECE57 /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106C5632451F12100FECE57 /* SideMenuTests.swift */; };
 		B106C56F2451F12100FECE57 /* SideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106C56E2451F12100FECE57 /* SideMenuUITests.swift */; };
+		B19182672451FA8400E14538 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19182662451FA8400E14538 /* HomeView.swift */; };
+		B19182692451FB5300E14538 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19182682451FB5300E14538 /* ProfileView.swift */; };
+		B191826B2451FB8B00E14538 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191826A2451FB8B00E14538 /* ChatView.swift */; };
+		B191826D2451FBC100E14538 /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191826C2451FBC100E14538 /* LogoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B106C56A2451F12100FECE57 /* SideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B106C56E2451F12100FECE57 /* SideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUITests.swift; sourceTree = "<group>"; };
 		B106C5702451F12100FECE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19182662451FA8400E14538 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B19182682451FB5300E14538 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B191826A2451FB8B00E14538 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B191826C2451FBC100E14538 /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				B106C54C2451F11C00FECE57 /* AppDelegate.swift */,
 				B106C54E2451F11C00FECE57 /* SceneDelegate.swift */,
 				B106C5502451F11C00FECE57 /* ContentView.swift */,
+				B19182662451FA8400E14538 /* HomeView.swift */,
+				B19182682451FB5300E14538 /* ProfileView.swift */,
+				B191826A2451FB8B00E14538 /* ChatView.swift */,
+				B191826C2451FBC100E14538 /* LogoutView.swift */,
 				B106C5522451F12100FECE57 /* Assets.xcassets */,
 				B106C5572451F12100FECE57 /* LaunchScreen.storyboard */,
 				B106C55A2451F12100FECE57 /* Info.plist */,
@@ -268,7 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B106C54D2451F11C00FECE57 /* AppDelegate.swift in Sources */,
+				B19182672451FA8400E14538 /* HomeView.swift in Sources */,
+				B19182692451FB5300E14538 /* ProfileView.swift in Sources */,
 				B106C54F2451F11C00FECE57 /* SceneDelegate.swift in Sources */,
+				B191826B2451FB8B00E14538 /* ChatView.swift in Sources */,
+				B191826D2451FBC100E14538 /* LogoutView.swift in Sources */,
 				B106C5512451F11C00FECE57 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
